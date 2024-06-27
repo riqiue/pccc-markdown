@@ -62,3 +62,6 @@ An application "under development" is rumored to repeatedly send a message over 
 3. What is the token revealed on `http://challenge.us` after activating the fire suppression system?
 
 4. What is the token embedded in the WebSocket data?
+
+## Note
+Attacking or unauthorized access to challenge.us (10.5.5.5) is forbidden. You may only use the provided web page to view challenge progress and download any challenge artifacts that are provided.

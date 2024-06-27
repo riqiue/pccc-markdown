@@ -7,7 +7,7 @@ In this challenge, you will use the provided Kali Linux machine to explore and e
 
 This is an infinity-style challenge, so the answers you see will not necessarily match exactly those found in the solution guide.
 
-Monitoring and visibility into the TIP: Copying and pasting in and out of the environment is tricky. See the screenshot below for details and learn the process up front, so you don’t get hung up throughout the challenge! network cannot be overstated.  Spend the time necessary to understand and use SecurityOnion for its intended purposes.
+Monitoring and visibility into the network cannot be overstated.  Spend the time necessary to understand and use SecurityOnion for its intended purposes.
 
 > Throughout this guide, we have provided notional statistics for some steps as if we had backend data supporting how many users have successfully completed portions of the activity.  Statistics will read similar to: “Congratulations, only 75% of participants have made it this far!  Keep going.”  This will help contribute to the gamification of the challenge, give participants an appreciation of their level of achievement, and encourage them to return next year.
 
