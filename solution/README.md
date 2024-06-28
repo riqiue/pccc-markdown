@@ -23,7 +23,6 @@ _Admin Image 1: Copy and Paste Guidance_
 
 ## Getting Started
 Once logged in, be sure to read all of the instructions prior to starting the virtual machines, kali and securityonion-v5-111.
-vmast
 
 ![Getting Started Image 1: Virtual Machine start location](./img/vmstart.png "Getting Started Image 1: Virtual Machine start location")
 
@@ -67,7 +66,7 @@ _Image 2: Download the PCAP file to Kali Linux_
 
 ### Step 2:  Analyze the Wireshark traffic for communications to the target (10.3.3.97):
 
-Initially, we saw two IP addresses communicating with the target (10.5.5.5 and 10.1.1.200).  The traffic between the target and 10.1.1.200 is interesting because it's persistently communicating over UDP on port 11111.  This represents a packet flood and is unusual behavior on a network. Selecting a packet between these IP addresses identifies the coordinates we see on the website in the Hex window.wire
+Initially, we saw two IP addresses communicating with the target (10.5.5.5 and 10.1.1.200).  The traffic between the target and 10.1.1.200 is interesting because it's persistently communicating over UDP on port 11111.  This represents a packet flood and is unusual behavior on a network. Selecting a packet between these IP addresses identifies the coordinates we see on the website in the Hex window.
 
 ![Image 3: PCAP file opened in Wireshark revealing the coordinates message](./img/wireshark.png "Image 3: PCAP file opened in Wireshark revealing the coordinates message")
 
@@ -126,7 +125,7 @@ Binary +11: 81 71 41 91 61 31 21 51
 
 ### Step 3: Add values to the remote-can-bus script, and run
 Now that we have the properly converted binary data values, we must add them to the data array in the provided script.
-> TIP: Save the file with a .py extension instead of .txt.py
+> TIP: Save the file with a .py extension instead of .txt
 
 ![Image 7: remote-can-bus.py script](./img/pyscript.png "Image 7: remote-can-bus.py script")
 
